@@ -78,18 +78,18 @@
 <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p2679631211356"><a name="p2679631211356"></a><a name="p2679631211356"></a>setAlarm</p>
 </td>
 </tr>
-<tr id="row23617716388"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1236210793812"><a name="p1236210793812"></a><a name="p1236210793812"></a><span id="ph11841612133819"><a name="ph11841612133819"></a><a name="ph11841612133819"></a>开启自动识别Web路径</span></p>
+<tr id="row23617716388"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1236210793812"><a name="p1236210793812"></a><a name="p1236210793812"></a>开启自动识别Web路径</p>
 </td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p113623703817"><a name="p113623703817"></a><a name="p113623703817"></a><span id="ph540215299384"><a name="ph540215299384"></a><a name="ph540215299384"></a>hss</span></p>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p113623703817"><a name="p113623703817"></a><a name="p113623703817"></a>hss</p>
 </td>
-<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p136210713814"><a name="p136210713814"></a><a name="p136210713814"></a><span id="ph1101194819387"><a name="ph1101194819387"></a><a name="ph1101194819387"></a>openAutoIdentify</span></p>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p136210713814"><a name="p136210713814"></a><a name="p136210713814"></a>openAutoIdentify</p>
 </td>
 </tr>
-<tr id="row73841201142"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p612428771142"><a name="p612428771142"></a><a name="p612428771142"></a><span id="ph1823432411381"><a name="ph1823432411381"></a><a name="ph1823432411381"></a>关闭</span>自动识别Web路径</p>
+<tr id="row73841201142"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p612428771142"><a name="p612428771142"></a><a name="p612428771142"></a>关闭自动识别Web路径</p>
 </td>
 <td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p617260271142"><a name="p617260271142"></a><a name="p617260271142"></a>hss</p>
 </td>
-<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p337522651142"><a name="p337522651142"></a><a name="p337522651142"></a><span id="ph526913523388"><a name="ph526913523388"></a><a name="ph526913523388"></a>close</span><span id="ph11791155318387"><a name="ph11791155318387"></a><a name="ph11791155318387"></a>A</span>utoIdentify</p>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p337522651142"><a name="p337522651142"></a><a name="p337522651142"></a>closeAutoIdentify</p>
 </td>
 </tr>
 <tr id="row17476121020530"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p8841712145314"><a name="p8841712145314"></a><a name="p8841712145314"></a>手动添加Web路径</p>
@@ -183,25 +183,25 @@
 <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p144829111368"><a name="p144829111368"></a><a name="p144829111368"></a>notIgnoreConfigRisky</p>
 </td>
 </tr>
-<tr id="row13799115464120"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1479925474115"><a name="p1479925474115"></a><a name="p1479925474115"></a><span id="ph12103703426"><a name="ph12103703426"></a><a name="ph12103703426"></a>一键修复漏洞</span></p>
+<tr id="row13799115464120"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1479925474115"><a name="p1479925474115"></a><a name="p1479925474115"></a>一键修复漏洞</p>
 </td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p147991554134120"><a name="p147991554134120"></a><a name="p147991554134120"></a><span id="ph427411202424"><a name="ph427411202424"></a><a name="ph427411202424"></a>hss</span></p>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p147991554134120"><a name="p147991554134120"></a><a name="p147991554134120"></a>hss</p>
 </td>
-<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p137991254114111"><a name="p137991254114111"></a><a name="p137991254114111"></a><span id="ph1277431124212"><a name="ph1277431124212"></a><a name="ph1277431124212"></a>repairVul</span></p>
-</td>
-</tr>
-<tr id="row3617125113417"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1861715511412"><a name="p1861715511412"></a><a name="p1861715511412"></a><span id="ph15364561426"><a name="ph15364561426"></a><a name="ph15364561426"></a>验证漏洞</span></p>
-</td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p861715513418"><a name="p861715513418"></a><a name="p861715513418"></a><span id="ph2296162214215"><a name="ph2296162214215"></a><a name="ph2296162214215"></a>hss</span></p>
-</td>
-<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p156171151204120"><a name="p156171151204120"></a><a name="p156171151204120"></a><span id="ph370294920425"><a name="ph370294920425"></a><a name="ph370294920425"></a>verifyVul</span></p>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p137991254114111"><a name="p137991254114111"></a><a name="p137991254114111"></a>repairVul</p>
 </td>
 </tr>
-<tr id="row1973614482413"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p207379481415"><a name="p207379481415"></a><a name="p207379481415"></a><span id="ph0626211194212"><a name="ph0626211194212"></a><a name="ph0626211194212"></a>一键修复待重启确认</span></p>
+<tr id="row3617125113417"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1861715511412"><a name="p1861715511412"></a><a name="p1861715511412"></a>验证漏洞</p>
 </td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p373744864119"><a name="p373744864119"></a><a name="p373744864119"></a><span id="ph12278224104219"><a name="ph12278224104219"></a><a name="ph12278224104219"></a>hss</span></p>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p861715513418"><a name="p861715513418"></a><a name="p861715513418"></a>hss</p>
 </td>
-<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p1273754817411"><a name="p1273754817411"></a><a name="p1273754817411"></a><span id="ph18338354124210"><a name="ph18338354124210"></a><a name="ph18338354124210"></a>confirmVul</span></p>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p156171151204120"><a name="p156171151204120"></a><a name="p156171151204120"></a>verifyVul</p>
+</td>
+</tr>
+<tr id="row1973614482413"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p207379481415"><a name="p207379481415"></a><a name="p207379481415"></a>一键修复待重启确认</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p373744864119"><a name="p373744864119"></a><a name="p373744864119"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p1273754817411"><a name="p1273754817411"></a><a name="p1273754817411"></a>confirmVul</p>
 </td>
 </tr>
 <tr id="row1373864712315"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p12738174714234"><a name="p12738174714234"></a><a name="p12738174714234"></a>忽略软件漏洞</p>
@@ -290,21 +290,21 @@
 </tr>
 <tr id="row204888275459"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p149001035104512"><a name="p149001035104512"></a><a name="p149001035104512"></a>网页防篡改添加特权进程</p>
 </td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p18488527114516"><a name="p18488527114516"></a><a name="p18488527114516"></a><span id="ph484312490456"><a name="ph484312490456"></a><a name="ph484312490456"></a>hss</span></p>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p18488527114516"><a name="p18488527114516"></a><a name="p18488527114516"></a>hss</p>
 </td>
 <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p15727114613453"><a name="p15727114613453"></a><a name="p15727114613453"></a>addWtpPrivilegedProcess</p>
 </td>
 </tr>
 <tr id="row206323256459"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1790093518457"><a name="p1790093518457"></a><a name="p1790093518457"></a>网页防篡改删除特权进程</p>
 </td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p16322251452"><a name="p16322251452"></a><a name="p16322251452"></a><span id="ph18591150194510"><a name="ph18591150194510"></a><a name="ph18591150194510"></a>hss</span></p>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p16322251452"><a name="p16322251452"></a><a name="p16322251452"></a>hss</p>
 </td>
 <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p10727184644518"><a name="p10727184644518"></a><a name="p10727184644518"></a>deleteWtpPrivilegedProcess</p>
 </td>
 </tr>
 <tr id="row194242234518"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p290043554520"><a name="p290043554520"></a><a name="p290043554520"></a>网页防篡改修改特权进程</p>
 </td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p94252284515"><a name="p94252284515"></a><a name="p94252284515"></a><span id="ph1623255194511"><a name="ph1623255194511"></a><a name="ph1623255194511"></a>hss</span></p>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p94252284515"><a name="p94252284515"></a><a name="p94252284515"></a>hss</p>
 </td>
 <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p11727184617457"><a name="p11727184617457"></a><a name="p11727184617457"></a>modifyWtpPrivilegedProcess</p>
 </td>
@@ -454,6 +454,13 @@
 <td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p269320584917"><a name="p269320584917"></a><a name="p269320584917"></a>hss</p>
 </td>
 <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p116937594917"><a name="p116937594917"></a><a name="p116937594917"></a>turnoffRasp</p>
+</td>
+</tr>
+<tr id="row1736214145472"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p66948534916"><a name="p66948534916"></a><a name="p66948534916"></a>订阅安全报告</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p269411594918"><a name="p269411594918"></a><a name="p269411594918"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p1369414512498"><a name="p1369414512498"></a><a name="p1369414512498"></a>subSafetyReport</p>
 </td>
 </tr>
 </tbody>
