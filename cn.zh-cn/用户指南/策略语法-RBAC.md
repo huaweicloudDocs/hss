@@ -1,17 +1,17 @@
-# 策略语法：RBAC<a name="hss_01_0134"></a>
+# 策略语法：RBAC<a name="dew_01_0136"></a>
 
-## 策略结构<a name="zh-cn_topic_0169425416_section96721439267"></a>
+## 策略结构<a name="section96721439267"></a>
 
 策略结构包括：策略版本号（Version）、策略授权语句（Statement）和策略依赖（Depends）。
 
-**图 1**  策略结构（RBAC）<a name="zh-cn_topic_0169425416_fig288933182617"></a>  
+**图 1**  策略结构（RBAC）<a name="fig288933182617"></a>  
 ![](figures/策略结构（RBAC）.png "策略结构（RBAC）")
 
-## 策略语法<a name="zh-cn_topic_0169425416_section76852310268"></a>
+## 策略语法<a name="section76852310268"></a>
 
 如下以HSS服务的“HSS Administrator“为例，说明RBAC策略语法。
 
-**图 2**  策略内容<a name="zh-cn_topic_0169425416_fig2265593466"></a>  
+**图 2**  策略内容<a name="fig2265593466"></a>  
 ![](figures/策略内容.png "策略内容")
 
 ```
