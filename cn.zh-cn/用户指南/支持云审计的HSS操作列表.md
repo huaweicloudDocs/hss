@@ -183,27 +183,6 @@
 <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p144829111368"><a name="p144829111368"></a><a name="p144829111368"></a>notIgnoreConfigRisky</p>
 </td>
 </tr>
-<tr id="row13799115464120"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1479925474115"><a name="p1479925474115"></a><a name="p1479925474115"></a>一键修复漏洞</p>
-</td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p147991554134120"><a name="p147991554134120"></a><a name="p147991554134120"></a>hss</p>
-</td>
-<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p137991254114111"><a name="p137991254114111"></a><a name="p137991254114111"></a>repairVul</p>
-</td>
-</tr>
-<tr id="row3617125113417"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1861715511412"><a name="p1861715511412"></a><a name="p1861715511412"></a>验证漏洞</p>
-</td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p861715513418"><a name="p861715513418"></a><a name="p861715513418"></a>hss</p>
-</td>
-<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p156171151204120"><a name="p156171151204120"></a><a name="p156171151204120"></a>verifyVul</p>
-</td>
-</tr>
-<tr id="row1973614482413"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p207379481415"><a name="p207379481415"></a><a name="p207379481415"></a>一键修复待重启确认</p>
-</td>
-<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p373744864119"><a name="p373744864119"></a><a name="p373744864119"></a>hss</p>
-</td>
-<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p1273754817411"><a name="p1273754817411"></a><a name="p1273754817411"></a>confirmVul</p>
-</td>
-</tr>
 <tr id="row1373864712315"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p12738174714234"><a name="p12738174714234"></a><a name="p12738174714234"></a>忽略软件漏洞</p>
 </td>
 <td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p1273864792318"><a name="p1273864792318"></a><a name="p1273864792318"></a>hss</p>
