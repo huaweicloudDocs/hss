@@ -442,6 +442,167 @@
 <td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p1369414512498"><a name="p1369414512498"></a><a name="p1369414512498"></a>subSafetyReport</p>
 </td>
 </tr>
+<tr id="row1788617294547"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p15625517552"><a name="p15625517552"></a><a name="p15625517552"></a>导入告警白名单</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p3626516558"><a name="p3626516558"></a><a name="p3626516558"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p76216575514"><a name="p76216575514"></a><a name="p76216575514"></a>importAlarmWhitelist</p>
+</td>
+</tr>
+<tr id="row1155332705420"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p16621654554"><a name="p16621654554"></a><a name="p16621654554"></a>删除告警白名单</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p196213514557"><a name="p196213514557"></a><a name="p196213514557"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p56315585511"><a name="p56315585511"></a><a name="p56315585511"></a>deleteAlarmWhitelist</p>
+</td>
+</tr>
+<tr id="row869472514549"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1963757556"><a name="p1963757556"></a><a name="p1963757556"></a>导出告警白名单</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p206385165512"><a name="p206385165512"></a><a name="p206385165512"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p06315555513"><a name="p06315555513"></a><a name="p06315555513"></a>exportAlarmWhitelist</p>
+</td>
+</tr>
+<tr id="row14570112375415"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1063750559"><a name="p1063750559"></a><a name="p1063750559"></a>添加、删除登录白名单</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p0631357554"><a name="p0631357554"></a><a name="p0631357554"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p136316512554"><a name="p136316512554"></a><a name="p136316512554"></a>operateLoginWhitelist</p>
+</td>
+</tr>
+<tr id="row174010211543"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p763105185515"><a name="p763105185515"></a><a name="p763105185515"></a>入侵检测事件操作</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p15631453558"><a name="p15631453558"></a><a name="p15631453558"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p14631858554"><a name="p14631858554"></a><a name="p14631858554"></a>operateEventStatus</p>
+</td>
+</tr>
+<tr id="row913120175418"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p7631655551"><a name="p7631655551"></a><a name="p7631655551"></a>取消隔离箱</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p863185145519"><a name="p863185145519"></a><a name="p863185145519"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p86311510551"><a name="p86311510551"></a><a name="p86311510551"></a>deleteProcessIsolationRule</p>
+</td>
+</tr>
+<tr id="row1568171875420"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1563185125516"><a name="p1563185125516"></a><a name="p1563185125516"></a>修改策略组</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p66318595519"><a name="p66318595519"></a><a name="p66318595519"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p1163155135510"><a name="p1163155135510"></a><a name="p1163155135510"></a>modifyPolicyGroup</p>
+</td>
+</tr>
+<tr id="row1316181610546"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p156419575516"><a name="p156419575516"></a><a name="p156419575516"></a>删除策略组</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p106495195513"><a name="p106495195513"></a><a name="p106495195513"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p126455195517"><a name="p126455195517"></a><a name="p126455195517"></a>deletePolicyGroup</p>
+</td>
+</tr>
+<tr id="row19303151445416"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p14647585512"><a name="p14647585512"></a><a name="p14647585512"></a>复制策略组</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p13642575510"><a name="p13642575510"></a><a name="p13642575510"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p16644575520"><a name="p16644575520"></a><a name="p16644575520"></a>copyPolicyGroup</p>
+</td>
+</tr>
+<tr id="row173675123541"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p20641555550"><a name="p20641555550"></a><a name="p20641555550"></a>修改策略内容</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p9644525518"><a name="p9644525518"></a><a name="p9644525518"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p14641956554"><a name="p14641956554"></a><a name="p14641956554"></a>modifyPolicyContent</p>
+</td>
+</tr>
+<tr id="row1239551095413"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1064157555"><a name="p1064157555"></a><a name="p1064157555"></a>部署策略</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p46413512550"><a name="p46413512550"></a><a name="p46413512550"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p106418510554"><a name="p106418510554"></a><a name="p106418510554"></a>deployPolicyGroup</p>
+</td>
+</tr>
+<tr id="row162851344135311"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1964175205515"><a name="p1964175205515"></a><a name="p1964175205515"></a>程序运行认证手动标记</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p4642515517"><a name="p4642515517"></a><a name="p4642515517"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p1864952550"><a name="p1864952550"></a><a name="p1864952550"></a>arsModifyStatus</p>
+</td>
+</tr>
+<tr id="row15325194212530"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p1964185185517"><a name="p1964185185517"></a><a name="p1964185185517"></a>程序运行认证筛选标记</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p1264205175511"><a name="p1264205175511"></a><a name="p1264205175511"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p106519519558"><a name="p106519519558"></a><a name="p106519519558"></a>arsFilterModifyStatus</p>
+</td>
+</tr>
+<tr id="row48312394539"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p14658555519"><a name="p14658555519"></a><a name="p14658555519"></a>移除私有信誉库</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p06514515551"><a name="p06514515551"></a><a name="p06514515551"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p20658513554"><a name="p20658513554"></a><a name="p20658513554"></a>arsDeleteHash</p>
+</td>
+</tr>
+<tr id="row22144619522"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p5657525520"><a name="p5657525520"></a><a name="p5657525520"></a>创建服务器组</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p465195125513"><a name="p465195125513"></a><a name="p465195125513"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p14656565515"><a name="p14656565515"></a><a name="p14656565515"></a>addHostGroup</p>
+</td>
+</tr>
+<tr id="row1336311118530"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p9655514556"><a name="p9655514556"></a><a name="p9655514556"></a>删除服务器组</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p10656525515"><a name="p10656525515"></a><a name="p10656525515"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p365756553"><a name="p365756553"></a><a name="p365756553"></a>deleteHostGroup</p>
+</td>
+</tr>
+<tr id="row42929712532"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p8652518553"><a name="p8652518553"></a><a name="p8652518553"></a>修改服务器组</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p166545115519"><a name="p166545115519"></a><a name="p166545115519"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p18651256552"><a name="p18651256552"></a><a name="p18651256552"></a>modifyHostGroup</p>
+</td>
+</tr>
+<tr id="row124382415315"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p565195195519"><a name="p565195195519"></a><a name="p565195195519"></a>分配到组</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p136565155516"><a name="p136565155516"></a><a name="p136565155516"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p126512518550"><a name="p126512518550"></a><a name="p126512518550"></a>insertHostGroup</p>
+</td>
+</tr>
+<tr id="row37409115311"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p106512513552"><a name="p106512513552"></a><a name="p106512513552"></a>未知关键文件手动标记</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p11669535511"><a name="p11669535511"></a><a name="p11669535511"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p4661535517"><a name="p4661535517"></a><a name="p4661535517"></a>unknownKeyfilesModify</p>
+</td>
+</tr>
+<tr id="row161161359135216"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p266185105512"><a name="p266185105512"></a><a name="p266185105512"></a>未知关键文件筛选标记</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p11661518551"><a name="p11661518551"></a><a name="p11661518551"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p116611513556"><a name="p116611513556"></a><a name="p116611513556"></a>unknownKeyfilesFilterModify</p>
+</td>
+</tr>
+<tr id="row1630805685213"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p6660505511"><a name="p6660505511"></a><a name="p6660505511"></a>添加关键文件指纹</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p76615595515"><a name="p76615595515"></a><a name="p76615595515"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p6661954559"><a name="p6661954559"></a><a name="p6661954559"></a>addKeyfiles</p>
+</td>
+</tr>
+<tr id="row10765155345217"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p0661755558"><a name="p0661755558"></a><a name="p0661755558"></a>删除关键文件指纹</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p1366655552"><a name="p1366655552"></a><a name="p1366655552"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p26617510556"><a name="p26617510556"></a><a name="p26617510556"></a>deleteKeyfiles</p>
+</td>
+</tr>
+<tr id="row18970205015523"><td class="cellrowborder" valign="top" width="43%" headers="mcps1.2.4.1.1 "><p id="p96613517559"><a name="p96613517559"></a><a name="p96613517559"></a>修改关键文件指纹</p>
+</td>
+<td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.4.1.2 "><p id="p8661658555"><a name="p8661658555"></a><a name="p8661658555"></a>hss</p>
+</td>
+<td class="cellrowborder" valign="top" width="33%" headers="mcps1.2.4.1.3 "><p id="p366165105512"><a name="p366165105512"></a><a name="p366165105512"></a>modifyKeyfiles</p>
+</td>
+</tr>
 </tbody>
 </table>
 

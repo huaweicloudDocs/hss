@@ -7,38 +7,38 @@
 
 ## 安装场景<a name="section16825043312"></a>
 
-企业主机安全服务支持**华为云主机**和**非华为云主机**两种安装方式，请按[表1](#zh-cn_topic_0199816001_table114917164498)进行选择。
+企业主机安全服务支持**华为云主机**和**非华为云主机**两种安装方式，请按[表1](#hss_01_0234_table114917164498)进行选择。
 
 **表 1**  安装场景
 
-<a name="zh-cn_topic_0199816001_table114917164498"></a>
-<table><thead align="left"><tr id="zh-cn_topic_0199816001_row4150816114916"><th class="cellrowborder" valign="top" width="21.67%" id="mcps1.2.3.1.1"><p id="zh-cn_topic_0199816001_p215031615493"><a name="zh-cn_topic_0199816001_p215031615493"></a><a name="zh-cn_topic_0199816001_p215031615493"></a>服务器类型</p>
+<a name="hss_01_0234_table114917164498"></a>
+<table><thead align="left"><tr id="hss_01_0234_row4150816114916"><th class="cellrowborder" valign="top" width="21.67%" id="mcps1.2.3.1.1"><p id="hss_01_0234_p215031615493"><a name="hss_01_0234_p215031615493"></a><a name="hss_01_0234_p215031615493"></a>服务器类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="78.33%" id="mcps1.2.3.1.2"><p id="zh-cn_topic_0199816001_p5150216184918"><a name="zh-cn_topic_0199816001_p5150216184918"></a><a name="zh-cn_topic_0199816001_p5150216184918"></a>如何安装Agent</p>
+<th class="cellrowborder" valign="top" width="78.33%" id="mcps1.2.3.1.2"><p id="hss_01_0234_p5150216184918"><a name="hss_01_0234_p5150216184918"></a><a name="hss_01_0234_p5150216184918"></a>如何安装Agent</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="zh-cn_topic_0199816001_row19150151664911"><td class="cellrowborder" rowspan="2" valign="top" width="21.67%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0199816001_p966513359117"><a name="zh-cn_topic_0199816001_p966513359117"></a><a name="zh-cn_topic_0199816001_p966513359117"></a>华为云弹性云服务器ECS</p>
-<p id="zh-cn_topic_0199816001_p135453716115"><a name="zh-cn_topic_0199816001_p135453716115"></a><a name="zh-cn_topic_0199816001_p135453716115"></a>华为云裸金属服务器BMS</p>
+<tbody><tr id="hss_01_0234_row19150151664911"><td class="cellrowborder" rowspan="2" valign="top" width="21.67%" headers="mcps1.2.3.1.1 "><p id="hss_01_0234_p966513359117"><a name="hss_01_0234_p966513359117"></a><a name="hss_01_0234_p966513359117"></a>华为云弹性云服务器ECS</p>
+<p id="hss_01_0234_p135453716115"><a name="hss_01_0234_p135453716115"></a><a name="hss_01_0234_p135453716115"></a>华为云裸金属服务器BMS</p>
 </td>
-<td class="cellrowborder" valign="top" width="78.33%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0199816001_p4150181614499"><a name="zh-cn_topic_0199816001_p4150181614499"></a><a name="zh-cn_topic_0199816001_p4150181614499"></a>主机与HSS配额在同一区域，请使用<strong id="zh-cn_topic_0199816001_b16617201129"><a name="zh-cn_topic_0199816001_b16617201129"></a><a name="zh-cn_topic_0199816001_b16617201129"></a>华为云主机</strong>的安装方式。</p>
+<td class="cellrowborder" valign="top" width="78.33%" headers="mcps1.2.3.1.2 "><p id="hss_01_0234_p4150181614499"><a name="hss_01_0234_p4150181614499"></a><a name="hss_01_0234_p4150181614499"></a>主机与HSS配额在同一区域，请使用<strong id="hss_01_0234_b16617201129"><a name="hss_01_0234_b16617201129"></a><a name="hss_01_0234_b16617201129"></a>华为云主机</strong>的安装方式。</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0199816001_row1715013165495"><td class="cellrowborder" valign="top" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0199816001_p1716714918537"><a name="zh-cn_topic_0199816001_p1716714918537"></a><a name="zh-cn_topic_0199816001_p1716714918537"></a>主机与HSS配额不在同一区域：</p>
-<a name="zh-cn_topic_0199816001_ul1677913318110"></a><a name="zh-cn_topic_0199816001_ul1677913318110"></a><ul id="zh-cn_topic_0199816001_ul1677913318110"><li>HSS配额所在区域：华北-北京一、华东-上海二、华南-广州、华北-北京四。<p id="zh-cn_topic_0199816001_p129001851111015"><a name="zh-cn_topic_0199816001_p129001851111015"></a><a name="zh-cn_topic_0199816001_p129001851111015"></a>请使用<strong id="zh-cn_topic_0199816001_b799315366126"><a name="zh-cn_topic_0199816001_b799315366126"></a><a name="zh-cn_topic_0199816001_b799315366126"></a>非华为云主机</strong>的安装方式将主机接入HSS配额所在区域。</p>
+<tr id="hss_01_0234_row1715013165495"><td class="cellrowborder" valign="top" headers="mcps1.2.3.1.1 "><p id="hss_01_0234_p1716714918537"><a name="hss_01_0234_p1716714918537"></a><a name="hss_01_0234_p1716714918537"></a>主机与HSS配额不在同一区域：</p>
+<a name="hss_01_0234_ul1677913318110"></a><a name="hss_01_0234_ul1677913318110"></a><ul id="hss_01_0234_ul1677913318110"><li>HSS配额所在区域：华北-北京一、华东-上海二、华南-广州、华北-北京四。<p id="hss_01_0234_p129001851111015"><a name="hss_01_0234_p129001851111015"></a><a name="hss_01_0234_p129001851111015"></a>请使用<strong id="hss_01_0234_b799315366126"><a name="hss_01_0234_b799315366126"></a><a name="hss_01_0234_b799315366126"></a>非华为云主机</strong>的安装方式将主机接入HSS配额所在区域。</p>
 </li></ul>
-<a name="zh-cn_topic_0199816001_ul2094613891110"></a><a name="zh-cn_topic_0199816001_ul2094613891110"></a><ul id="zh-cn_topic_0199816001_ul2094613891110"><li>HSS配额所在区域：其他区域。<p id="zh-cn_topic_0199816001_p68299872112"><a name="zh-cn_topic_0199816001_p68299872112"></a><a name="zh-cn_topic_0199816001_p68299872112"></a>请退订配额后重新购买配额。</p>
+<a name="hss_01_0234_ul2094613891110"></a><a name="hss_01_0234_ul2094613891110"></a><ul id="hss_01_0234_ul2094613891110"><li>HSS配额所在区域：其他区域。<p id="hss_01_0234_p68299872112"><a name="hss_01_0234_p68299872112"></a><a name="hss_01_0234_p68299872112"></a>请退订配额后重新购买配额。</p>
 </li></ul>
-<p id="zh-cn_topic_0199816001_p212169114"><a name="zh-cn_topic_0199816001_p212169114"></a><a name="zh-cn_topic_0199816001_p212169114"></a>具体操作请参见<a href="https://support.huaweicloud.com/hss_faq/hss_01_0159.html" target="_blank" rel="noopener noreferrer">如何跨区域使用HSS服务</a>。</p>
+<p id="hss_01_0234_p212169114"><a name="hss_01_0234_p212169114"></a><a name="hss_01_0234_p212169114"></a>具体操作请参见<a href="https://support.huaweicloud.com/hss_faq/hss_01_0159.html" target="_blank" rel="noopener noreferrer">如何跨区域使用HSS服务</a>。</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0199816001_row1715010162495"><td class="cellrowborder" valign="top" width="21.67%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0199816001_p4150716174914"><a name="zh-cn_topic_0199816001_p4150716174914"></a><a name="zh-cn_topic_0199816001_p4150716174914"></a>第三方云主机</p>
+<tr id="hss_01_0234_row1715010162495"><td class="cellrowborder" valign="top" width="21.67%" headers="mcps1.2.3.1.1 "><p id="hss_01_0234_p4150716174914"><a name="hss_01_0234_p4150716174914"></a><a name="hss_01_0234_p4150716174914"></a>第三方云主机</p>
 </td>
-<td class="cellrowborder" rowspan="2" valign="top" width="78.33%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0199816001_p0150616134918"><a name="zh-cn_topic_0199816001_p0150616134918"></a><a name="zh-cn_topic_0199816001_p0150616134918"></a><strong id="zh-cn_topic_0199816001_b17626227101210"><a name="zh-cn_topic_0199816001_b17626227101210"></a><a name="zh-cn_topic_0199816001_b17626227101210"></a>非华为云主机</strong>的安装方式。</p>
-<a name="zh-cn_topic_0199816001_ul196058314920"></a><a name="zh-cn_topic_0199816001_ul196058314920"></a><ul id="zh-cn_topic_0199816001_ul196058314920"><li>仅在<span class="parmvalue" id="zh-cn_topic_0199816001_parmvalue1580913141594"><a name="zh-cn_topic_0199816001_parmvalue1580913141594"></a><a name="zh-cn_topic_0199816001_parmvalue1580913141594"></a>“华北-北京一”</span>、<span class="parmvalue" id="zh-cn_topic_0199816001_parmvalue380910148913"><a name="zh-cn_topic_0199816001_parmvalue380910148913"></a><a name="zh-cn_topic_0199816001_parmvalue380910148913"></a>“华东-上海二”</span>、<span class="parmvalue" id="zh-cn_topic_0199816001_parmvalue15813814898"><a name="zh-cn_topic_0199816001_parmvalue15813814898"></a><a name="zh-cn_topic_0199816001_parmvalue15813814898"></a>“华南-广州”</span>、<span class="parmvalue" id="zh-cn_topic_0199816001_parmvalue128132014799"><a name="zh-cn_topic_0199816001_parmvalue128132014799"></a><a name="zh-cn_topic_0199816001_parmvalue128132014799"></a>“华北-北京四”</span>可接入非华为云的主机，请在以上区域内购买防护配额，并使用以上区域内的安装包或安装命令为主机安装客户端。</li><li>在非华为云主机中安装客户端后，在防护列表中，您可以根据主机的IP地址查找该主机。</li></ul>
+<td class="cellrowborder" rowspan="2" valign="top" width="78.33%" headers="mcps1.2.3.1.2 "><p id="hss_01_0234_p0150616134918"><a name="hss_01_0234_p0150616134918"></a><a name="hss_01_0234_p0150616134918"></a><strong id="hss_01_0234_b17626227101210"><a name="hss_01_0234_b17626227101210"></a><a name="hss_01_0234_b17626227101210"></a>非华为云主机</strong>的安装方式。</p>
+<a name="hss_01_0234_ul196058314920"></a><a name="hss_01_0234_ul196058314920"></a><ul id="hss_01_0234_ul196058314920"><li>仅在<span class="parmvalue" id="hss_01_0234_parmvalue1580913141594"><a name="hss_01_0234_parmvalue1580913141594"></a><a name="hss_01_0234_parmvalue1580913141594"></a>“华北-北京一”</span>、<span class="parmvalue" id="hss_01_0234_parmvalue380910148913"><a name="hss_01_0234_parmvalue380910148913"></a><a name="hss_01_0234_parmvalue380910148913"></a>“华东-上海二”</span>、<span class="parmvalue" id="hss_01_0234_parmvalue15813814898"><a name="hss_01_0234_parmvalue15813814898"></a><a name="hss_01_0234_parmvalue15813814898"></a>“华南-广州”</span>、<span class="parmvalue" id="hss_01_0234_parmvalue128132014799"><a name="hss_01_0234_parmvalue128132014799"></a><a name="hss_01_0234_parmvalue128132014799"></a>“华北-北京四”</span>可接入非华为云的主机，请在以上区域内购买防护配额，并使用以上区域内的安装包或安装命令为主机安装客户端。</li><li>在非华为云主机中安装客户端后，在防护列表中，您可以根据主机的IP地址查找该主机。</li></ul>
 </td>
 </tr>
-<tr id="zh-cn_topic_0199816001_row3151181614491"><td class="cellrowborder" valign="top" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0199816001_p115112161495"><a name="zh-cn_topic_0199816001_p115112161495"></a><a name="zh-cn_topic_0199816001_p115112161495"></a>线下主机</p>
+<tr id="hss_01_0234_row3151181614491"><td class="cellrowborder" valign="top" headers="mcps1.2.3.1.1 "><p id="hss_01_0234_p115112161495"><a name="hss_01_0234_p115112161495"></a><a name="hss_01_0234_p115112161495"></a>线下主机</p>
 </td>
 </tr>
 </tbody>
@@ -63,10 +63,10 @@
 1.  [登录管理控制台](https://console.huaweicloud.com)。
 2.  在页面上方选择区域后，单击![](figures/icon-servicelist.png)，选择“安全  \>  企业主机安全“。
 
-    **图 1**  企业主机安全<a name="zh-cn_topic_0199815993_fig1271516227232"></a>  
+    **图 1**  企业主机安全<a name="hss_01_0229_fig1271516227232"></a>  
     ![](figures/企业主机安全.png "企业主机安全")
 
-3.  在左侧导航栏中，选择“安装与配置“，进入“安装Agent“界面，下载客户端安装包。
+3.  在左侧导航栏中，选择“安全运营  \>  安装与配置“，进入“安装Agent“界面，下载客户端安装包。
 
     **图 2**  安装Windows客户端<a name="zh-cn_topic_0167639837_fig98256510550"></a>  
     ![](figures/安装Windows客户端.png "安装Windows客户端")
