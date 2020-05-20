@@ -548,7 +548,7 @@
 <td class="cellrowborder" valign="top" width="50.46000000000001%" headers="mcps1.1.4.1.3 "><a name="ul883110208244"></a><a name="ul883110208244"></a><ul id="ul883110208244"><li>项目(Project)</li><li>企业项目(Enterprise Project)</li></ul>
 </td>
 </tr>
-<tr id="row14326194122319"><td class="cellrowborder" valign="top" width="21.22%" headers="mcps1.1.4.1.1 "><p id="p11424145311233"><a name="p11424145311233"></a><a name="p11424145311233"></a>文件完整性校验</p>
+<tr id="row14326194122319"><td class="cellrowborder" valign="top" width="21.22%" headers="mcps1.1.4.1.1 "><p id="p11424145311233"><a name="p11424145311233"></a><a name="p11424145311233"></a>文件完整性管理</p>
 </td>
 <td class="cellrowborder" valign="top" width="28.32%" headers="mcps1.1.4.1.2 "><p id="p1326104122317"><a name="p1326104122317"></a><a name="p1326104122317"></a>hss:keyfiles:set</p>
 </td>
