@@ -67,7 +67,7 @@
                             "Action": [
                                     "hss:hosts:switchVersion",
                                     "hss:hosts:manualDetect",
-                                    "hss:manualDetectStatus:get",
+                                    "hss:manualDetectStatus:get"
                             ]
                     }
             ]
