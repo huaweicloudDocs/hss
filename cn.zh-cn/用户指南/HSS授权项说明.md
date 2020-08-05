@@ -9,8 +9,8 @@
 -   依赖的授权项：部分Action存在对其他Action的依赖，需要将依赖的Action同时写入授权项，才能实现对应的权限功能。
 -   IAM项目\(Project\)/企业项目\(Enterprise Project\)：自定义策略的授权范围，包括IAM项目与企业项目。授权范围如果同时支持IAM项目和企业项目，表示此授权项对应的自定义策略，可以在IAM和企业管理两个服务中给用户组授权并生效。如果仅支持IAM项目，不支持企业项目，表示仅能在IAM中给用户组授权并生效，如果在企业管理中授权，则该自定义策略不生效。关于IAM项目与企业项目的区别，详情请参见：[IAM与企业管理的区别](https://support.huaweicloud.com/iam_faq/iam_01_0101.html)。
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >“√”表示支持，“x”表示暂不支持。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >“√”表示支持，“x”表示暂不支持。
 
 
 企业主机安全服务（HSS）支持的自定义策略授权项如下所示：

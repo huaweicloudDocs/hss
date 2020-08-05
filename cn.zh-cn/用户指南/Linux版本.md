@@ -2,8 +2,14 @@
 
 安装Agent后，您才能开启企业主机安全服务。通过本节介绍，您将了解如何在Linux操作系统的主机中安装Agent。Windows操作系统的Agent安装请参见[Windows版本](Windows版本.md)。
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->网页防篡改与主机安全共用同一个Agent，您只需在同一主机安装一次。  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>网页防篡改与主机安全共用同一个Agent，您只需在同一主机安装一次。
+
+## 默认安装路径<a name="section7764112663213"></a>
+
+在Linux操作系统的主机中安装Agent时，安装过程中不提供安装路径的选择，默认安装在以下路径中：
+
+“/usr/local/hostguard/“
 
 ## 安装场景<a name="section7319455164315"></a>
 
@@ -12,17 +18,17 @@
 **表 1**  安装场景
 
 <a name="table114917164498"></a>
-<table><thead align="left"><tr id="row4150816114916"><th class="cellrowborder" valign="top" width="21.67%" id="mcps1.2.3.1.1"><p id="p215031615493"><a name="p215031615493"></a><a name="p215031615493"></a>服务器类型</p>
+<table><thead align="left"><tr id="row4150816114916"><th class="cellrowborder" valign="top" width="29.69%" id="mcps1.2.3.1.1"><p id="p215031615493"><a name="p215031615493"></a><a name="p215031615493"></a>服务器类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="78.33%" id="mcps1.2.3.1.2"><p id="p5150216184918"><a name="p5150216184918"></a><a name="p5150216184918"></a>如何安装Agent</p>
+<th class="cellrowborder" valign="top" width="70.30999999999999%" id="mcps1.2.3.1.2"><p id="p5150216184918"><a name="p5150216184918"></a><a name="p5150216184918"></a>如何安装Agent</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row19150151664911"><td class="cellrowborder" rowspan="2" valign="top" width="21.67%" headers="mcps1.2.3.1.1 "><p id="p966513359117"><a name="p966513359117"></a><a name="p966513359117"></a>华为云弹性云服务器ECS</p>
+<tbody><tr id="row19150151664911"><td class="cellrowborder" rowspan="2" valign="top" width="29.69%" headers="mcps1.2.3.1.1 "><p id="p966513359117"><a name="p966513359117"></a><a name="p966513359117"></a>华为云弹性云服务器ECS</p>
 <p id="p135453716115"><a name="p135453716115"></a><a name="p135453716115"></a>华为云裸金属服务器BMS</p>
 <p id="p420911712507"><a name="p420911712507"></a><a name="p420911712507"></a>华为云云耀云服务器HECS</p>
 </td>
-<td class="cellrowborder" valign="top" width="78.33%" headers="mcps1.2.3.1.2 "><p id="p4150181614499"><a name="p4150181614499"></a><a name="p4150181614499"></a>主机与HSS配额在同一区域，请使用<strong id="b16617201129"><a name="b16617201129"></a><a name="b16617201129"></a>华为云主机</strong>的安装方式。</p>
+<td class="cellrowborder" valign="top" width="70.30999999999999%" headers="mcps1.2.3.1.2 "><p id="p4150181614499"><a name="p4150181614499"></a><a name="p4150181614499"></a>主机与HSS配额在同一区域，请使用<strong id="b16617201129"><a name="b16617201129"></a><a name="b16617201129"></a>华为云主机</strong>的安装方式。</p>
 </td>
 </tr>
 <tr id="row1715013165495"><td class="cellrowborder" valign="top" headers="mcps1.2.3.1.1 "><p id="p1716714918537"><a name="p1716714918537"></a><a name="p1716714918537"></a>主机与HSS配额不在同一区域：</p>
@@ -32,9 +38,9 @@
 <p id="p212169114"><a name="p212169114"></a><a name="p212169114"></a>具体操作请参见<a href="https://support.huaweicloud.com/hss_faq/hss_01_0159.html" target="_blank" rel="noopener noreferrer">如何跨区域使用HSS服务</a>。</p>
 </td>
 </tr>
-<tr id="row1715010162495"><td class="cellrowborder" valign="top" width="21.67%" headers="mcps1.2.3.1.1 "><p id="p4150716174914"><a name="p4150716174914"></a><a name="p4150716174914"></a>第三方云主机</p>
+<tr id="row1715010162495"><td class="cellrowborder" valign="top" width="29.69%" headers="mcps1.2.3.1.1 "><p id="p4150716174914"><a name="p4150716174914"></a><a name="p4150716174914"></a>第三方云主机</p>
 </td>
-<td class="cellrowborder" rowspan="2" valign="top" width="78.33%" headers="mcps1.2.3.1.2 "><p id="p0150616134918"><a name="p0150616134918"></a><a name="p0150616134918"></a><strong id="b17626227101210"><a name="b17626227101210"></a><a name="b17626227101210"></a>非华为云主机</strong>的安装方式。</p>
+<td class="cellrowborder" rowspan="2" valign="top" width="70.30999999999999%" headers="mcps1.2.3.1.2 "><p id="p0150616134918"><a name="p0150616134918"></a><a name="p0150616134918"></a><strong id="b17626227101210"><a name="b17626227101210"></a><a name="b17626227101210"></a>非华为云主机</strong>的安装方式。</p>
 <a name="ul196058314920"></a><a name="ul196058314920"></a><ul id="ul196058314920"><li>仅在<span class="parmvalue" id="parmvalue1580913141594"><a name="parmvalue1580913141594"></a><a name="parmvalue1580913141594"></a>“华北-北京一”</span>、<span class="parmvalue" id="parmvalue380910148913"><a name="parmvalue380910148913"></a><a name="parmvalue380910148913"></a>“华东-上海二”</span>、<span class="parmvalue" id="parmvalue15813814898"><a name="parmvalue15813814898"></a><a name="parmvalue15813814898"></a>“华南-广州”</span>、<span class="parmvalue" id="parmvalue128132014799"><a name="parmvalue128132014799"></a><a name="parmvalue128132014799"></a>“华北-北京四”</span>可接入非华为云的主机，请在以上区域内购买防护配额，并使用以上区域内的安装包或安装命令为主机安装Agent。</li><li>在非华为云主机中安装Agent后，在防护列表中，您可以根据主机的IP地址查找该主机。</li></ul>
 </td>
 </tr>
@@ -44,9 +50,9 @@
 </tbody>
 </table>
 
->![](public_sys-resources/icon-notice.gif) **须知：**   
->-   由于主机的性能差异，非华为云的主机与企业主机安全服务的兼容性可能较差，为使您获得良好的服务体验，建议您使用华为云主机。  
->-   安装Agent时，请暂时清理主机中可能干扰主机安装的应用进程和配置信息，防止Agent安装失败。  
+>![](public_sys-resources/icon-notice.gif) **须知：** 
+>-   由于主机的性能差异，非华为云的主机与企业主机安全服务的兼容性可能较差，为使您获得良好的服务体验，建议您使用华为云主机。
+>-   安装Agent时，请暂时清理主机中可能干扰主机安装的应用进程和配置信息，防止Agent安装失败。
 
 ## 前提条件<a name="section145381446145316"></a>
 
@@ -118,8 +124,8 @@
 7.  使用如下命令，在云主机中安装Agent。
     -   安装“.rpm“格式的安装包，请执行命令：**rpm** **-ivh** _安装包名称_。
 
-        >![](public_sys-resources/icon-note.gif) **说明：**   
-        >强制安装请执行命令：**rpm** **-ivh --force** _安装包名称_  
+        >![](public_sys-resources/icon-note.gif) **说明：** 
+        >强制安装请执行命令：**rpm** **-ivh --force** _安装包名称_
 
     -   安装“.deb“格式的安装包，请执行命令：**dpkg** **-i** _安装包名称_。
 
@@ -140,10 +146,6 @@
     Hostguard is running
     ```
 
-
-## 默认安装路径<a name="section7764112663213"></a>
-
-“/usr/local/hostguard/“
 
 ## 相关操作<a name="section982995012508"></a>
 
