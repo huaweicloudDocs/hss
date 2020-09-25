@@ -67,15 +67,15 @@
 -   方式二：登录待安装Agent的云主机，在云主机中登录华为云管理控制台，下载并安装Agent。
 
 1.  [登录管理控制台](https://console.huaweicloud.com)。
-2.  在页面上方选择区域后，单击![](figures/icon-servicelist.png)，选择“安全  \>  企业主机安全“。
+2.  在页面左上角选择“区域“，单击![](figures/icon-servicelist.png)，选择“安全  \>  企业主机安全“，进入企业主机安全页面。
 
-    **图 1**  企业主机安全<a name="hss_01_0229_fig1271516227232"></a>  
+    **图 1**  企业主机安全<a name="hss_01_0229_fig1855613765114"></a>  
     ![](figures/企业主机安全.png "企业主机安全")
 
-3.  在左侧导航栏中，选择“安全运营  \>  安装与配置“，进入“安装Agent“界面，下载Agent安装包。
+3.  在左侧导航栏中，选择“安装与配置“，进入“安装Agent“界面，下载Agent安装包。
 
-    **图 2**  安装WindowsAgent<a name="zh-cn_topic_0167639837_fig98256510550"></a>  
-    ![](figures/安装WindowsAgent.png "安装WindowsAgent")
+    **图 2**  安装Windows Agent<a name="zh-cn_topic_0167639837_fig98256510550"></a>  
+    ![](figures/安装Windows-Agent.png "安装Windows-Agent")
 
 4.  远程登录待安装Agent的主机。
     -   华为云主机
@@ -114,6 +114,6 @@
 
 ## 相关操作<a name="section982995012508"></a>
 
--   Agent状态及异常处理的详细操作请参见[客户端状态异常应如何处理？](https://support.huaweicloud.com/hss_faq/hss_01_0036.html)。
+-   Agent状态及异常处理的详细操作请参见[客户端状态异常应如何处理？](https://support.huaweicloud.com/hss_faq/hss_01_0036.html)
 -   卸载Agent的详细操作请参见[卸载客户端](https://support.huaweicloud.com/hss_faq/hss_01_0119.html)。
 

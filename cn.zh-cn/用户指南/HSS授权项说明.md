@@ -1,5 +1,11 @@
 # HSS授权项说明<a name="hss_01_0006"></a>
 
+如果您需要对您所拥有的HSS进行精细的权限管理，您可以使用统一身份认证服务（Identity and Access Management，IAM），如果华为云账号已经能满足您的要求，不需要创建独立的IAM用户，您可以跳过本章节，不影响您使用WAF服务的其它功能。
+
+默认情况下，新建的IAM用户没有任何权限，您需要将其加入用户组，并给用户组授予策略或角色，才能使用户组中的用户获得相应的权限，这一过程称为授权。授权后，用户就可以基于已有权限对云服务进行操作。
+
+权限根据授权的精细程度，分为[角色](https://support.huaweicloud.com/usermanual-iam/iam_01_0601.html)和[策略](https://support.huaweicloud.com/usermanual-iam/iam_01_0017.html)。角色以服务为粒度，是IAM最初提供的一种根据用户的工作职能定义权限的粗粒度授权机制。策略授权更加精细，可以精确到某个操作、资源和条件，能够满足企业对权限最小化的安全管控要求。
+
 ## 支持的授权项<a name="section677212217497"></a>
 
 策略包含系统策略和自定义策略，如果系统策略不满足授权要求，管理员可以创建自定义策略，并通过给用户组授予自定义策略来进行精细的访问控制。策略支持的操作与API相对应，授权项列表说明如下：
@@ -9,9 +15,8 @@
 -   依赖的授权项：部分Action存在对其他Action的依赖，需要将依赖的Action同时写入授权项，才能实现对应的权限功能。
 -   IAM项目\(Project\)/企业项目\(Enterprise Project\)：自定义策略的授权范围，包括IAM项目与企业项目。授权范围如果同时支持IAM项目和企业项目，表示此授权项对应的自定义策略，可以在IAM和企业管理两个服务中给用户组授权并生效。如果仅支持IAM项目，不支持企业项目，表示仅能在IAM中给用户组授权并生效，如果在企业管理中授权，则该自定义策略不生效。关于IAM项目与企业项目的区别，详情请参见：[IAM与企业管理的区别](https://support.huaweicloud.com/iam_faq/iam_01_0101.html)。
 
-    >![](public_sys-resources/icon-note.gif) **说明：** 
-    >“√”表示支持，“x”表示暂不支持。
-
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>“√”表示支持，“x”表示暂不支持。
 
 企业主机安全服务（HSS）支持的自定义策略授权项如下所示：
 
@@ -872,7 +877,7 @@
 <td class="cellrowborder" valign="top" width="23.18%" headers="mcps1.1.6.1.5 "><p id="p1982423317529"><a name="p1982423317529"></a><a name="p1982423317529"></a>√</p>
 </td>
 </tr>
-<tr id="row1814412235234"><td class="cellrowborder" valign="top" width="18.14%" headers="mcps1.1.6.1.1 "><p id="p242425362310"><a name="p242425362310"></a><a name="p242425362310"></a>查询自动启列表</p>
+<tr id="row1814412235234"><td class="cellrowborder" valign="top" width="18.14%" headers="mcps1.1.6.1.1 "><p id="p242425362310"><a name="p242425362310"></a><a name="p242425362310"></a>查询自启动列表</p>
 </td>
 <td class="cellrowborder" valign="top" width="22.770000000000003%" headers="mcps1.1.6.1.2 "><p id="p121441923122317"><a name="p121441923122317"></a><a name="p121441923122317"></a>hss:launch:list</p>
 </td>
