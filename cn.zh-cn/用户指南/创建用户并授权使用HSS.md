@@ -44,7 +44,8 @@
 </td>
 <td class="cellrowborder" valign="top" width="9.990999099909992%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0187145412_p1170963517284"><a name="zh-cn_topic_0187145412_p1170963517284"></a><a name="zh-cn_topic_0187145412_p1170963517284"></a>系统策略</p>
 </td>
-<td class="cellrowborder" valign="top" width="49.38493849384938%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0187145412_p1470993562816"><a name="zh-cn_topic_0187145412_p1470993562816"></a><a name="zh-cn_topic_0187145412_p1470993562816"></a>无</p>
+<td class="cellrowborder" valign="top" width="49.38493849384938%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0187145412_p23639254411"><a name="zh-cn_topic_0187145412_p23639254411"></a><a name="zh-cn_topic_0187145412_p23639254411"></a>购买HSS防护配额需要具有BSS Administrator角色。</p>
+<p id="zh-cn_topic_0187145412_p172315241245"><a name="zh-cn_topic_0187145412_p172315241245"></a><a name="zh-cn_topic_0187145412_p172315241245"></a>BSS Administrator：系统角色，费用中心（BSS）管理员，拥有该服务下的所有权限。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0187145412_row13720637112819"><td class="cellrowborder" valign="top" width="18.871887188718873%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0187145412_p13864438161415"><a name="zh-cn_topic_0187145412_p13864438161415"></a><a name="zh-cn_topic_0187145412_p13864438161415"></a>HSS ReadOnlyAccess</p>
