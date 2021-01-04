@@ -1,4 +1,4 @@
-# Linux版本<a name="hss_01_0234"></a>
+# Linux版本<a name="HSS_01_0234"></a>
 
 安装Agent后，您才能开启企业主机安全服务。通过本节介绍，您将了解如何在Linux操作系统的主机中安装Agent。Windows操作系统的Agent安装请参见[Windows版本](Windows版本.md)。
 
@@ -31,11 +31,7 @@
 <td class="cellrowborder" valign="top" width="70.30999999999999%" headers="mcps1.2.3.1.2 "><p id="p4150181614499"><a name="p4150181614499"></a><a name="p4150181614499"></a>主机与HSS配额在同一区域，请使用<strong id="b16617201129"><a name="b16617201129"></a><a name="b16617201129"></a>华为云主机</strong>的安装方式。</p>
 </td>
 </tr>
-<tr id="row1715013165495"><td class="cellrowborder" valign="top" headers="mcps1.2.3.1.1 "><p id="p1716714918537"><a name="p1716714918537"></a><a name="p1716714918537"></a>主机与HSS配额不在同一区域：</p>
-<a name="ul1677913318110"></a><a name="ul1677913318110"></a><ul id="ul1677913318110"><li>HSS配额所在区域：华北-北京一、华东-上海二、华南-广州、华北-北京四。<p id="p129001851111015"><a name="p129001851111015"></a><a name="p129001851111015"></a>请使用<strong id="b799315366126"><a name="b799315366126"></a><a name="b799315366126"></a>非华为云主机</strong>的安装方式将主机接入HSS配额所在区域。</p>
-</li><li>HSS配额所在区域：其他区域。<p id="p68299872112"><a name="p68299872112"></a><a name="p68299872112"></a>请退订配额后重新购买配额。</p>
-</li></ul>
-<p id="p212169114"><a name="p212169114"></a><a name="p212169114"></a>具体操作请参见<a href="https://support.huaweicloud.com/hss_faq/hss_01_0159.html" target="_blank" rel="noopener noreferrer">如何跨区域使用HSS服务</a>。</p>
+<tr id="row1715013165495"><td class="cellrowborder" valign="top" headers="mcps1.2.3.1.1 "><p id="p1716714918537"><a name="p1716714918537"></a><a name="p1716714918537"></a>主机与HSS配额不在同一区域，请退订配额后，重新购买主机所在区域的配额。</p>
 </td>
 </tr>
 <tr id="row1715010162495"><td class="cellrowborder" valign="top" width="29.69%" headers="mcps1.2.3.1.1 "><p id="p4150716174914"><a name="p4150716174914"></a><a name="p4150716174914"></a>第三方云主机</p>
@@ -83,6 +79,7 @@
     -   非华为云主机
 
         请使用远程管理工具（例如：“Xftp“、“SecureFX“、“WinSCP“）登录主机，并使用root账号在主机中安装Agent。
+
 
 5.  粘贴复制的安装命令，并按“Enter“，在主机中安装Agent。
 
@@ -137,6 +134,7 @@
         Hostguard is running.
         Hostguard installed.
         ```
+
 
 8.  使用**service hostguard** **status**命令，查看Agent的运行状态。
 
