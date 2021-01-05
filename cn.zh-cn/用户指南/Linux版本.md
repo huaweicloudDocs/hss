@@ -1,4 +1,4 @@
-# Linux版本<a name="HSS_01_0234"></a>
+# Linux版本<a name="hss_01_0234"></a>
 
 安装Agent后，您才能开启企业主机安全服务。通过本节介绍，您将了解如何在Linux操作系统的主机中安装Agent。Windows操作系统的Agent安装请参见[Windows版本](Windows版本.md)。
 
